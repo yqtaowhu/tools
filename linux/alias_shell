@@ -1,0 +1,13 @@
+# short cuts 
+alias ll='ls -l'
+alias ..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias h='history'
+alias j='jobs -l'
+alias www='python -m SimpleHTTPServer 8000'
+
+# hdfs
+alias hfl='hadoop fs -ls'
+alias hfg='hadoop fs -get'
+alias hfc='hadoop fs -cat'
