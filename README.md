@@ -1,8 +1,9 @@
-- [常用工具、模板记录](#%e5%b8%b8%e7%94%a8%e5%b7%a5%e5%85%b7%e6%a8%a1%e6%9d%bf%e8%ae%b0%e5%bd%95)
+- [常用工具、模板记录](#常用工具模板记录)
   - [1. python](#1-python)
   - [2. spark](#2-spark)
   - [3. linux](#3-linux)
   - [4. cpp](#4-cpp)
+  - [5. tensorflow](#5-tensorflow)
 
 # 常用工具、模板记录
 
@@ -13,6 +14,8 @@
 |---|---|
 |[python_template.py](python/python_template.py)| python 程序模板|
 |[simplify_tranditional_transformation.py](python/simplify_tranditional_transformation.py)| 简繁体转换库工具|
+|[sample.py](python/sample.py)|采样(分层等)|
+|[lgb2ifelse.py](python/lgb2ifelse.py)| 将lightgbm模型转成if else的函数，便于计算节点|
 
 ## 2. spark
 
@@ -36,5 +39,12 @@
 |名称| 描述|
 |---|---|
 |[link_list.cpp](cpp/link_list.cpp)| link_list cpp template|
+
+## 5. tensorflow
+
+使用tensorflow中的一些pipeline记录
+|名称| 描述|
+|---|---|
+|[spark-to-tfrecord.py](tensorflow/spark-to-tfrecord.py)| 如何使用spark进行tfrecord的转换|
 
 
